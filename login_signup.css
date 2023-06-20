@@ -1,0 +1,33 @@
+body{
+    background-image:url("https://i.pinimg.com/originals/6b/8b/d4/6b8bd4f7cf2dd3842fcaddaeb98b5d93.jpg");
+    height:90vh;
+    background-size:cover;
+}
+*{
+    margin:0;
+    padding:0;
+    
+}
+header{
+    color:white;
+    padding:20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+li{
+    list-style-type:none;
+    font-size:35px;
+    margin-right:30px;
+}
+div{
+    display:flex;
+    width:fit-content;
+    margin-left: auto;
+}
+li:hover{
+    text-shadow: 1px 1px 5px black, 0 0 1em goldenrod, 0 0 0.2em goldenrod;
+    background-color:black;
+    transform: scale(1.1);
+}

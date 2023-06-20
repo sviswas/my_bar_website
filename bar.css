@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ body{
+    margin:0;
+    padding:0;
+    background-color:black;
+}
+nav{
+    background-color:black;
+    color:white;
+    position:fixed;
+    top:0;
+    width:100%;
+    height:105px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.upper_list 
+{
+    display:flex; 
+    padding:10px;  
+}
+.nav_head{
+    margin-right:auto;
+    font-style:italic;
+    padding-top:25px;
+    padding-left:10px;
+}
+li{
+    list-style-type:none;
+    margin-top:20px;
+    font-size:20px;
+    margin-left:20px;
+    margin-right:20px;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+.image_nav{
+    border-radius:50%;
+    height:100px;
+    width:100px;
+    margin:5px;
+}
+.bg_image{
+    background-image:url("https://assets.bonappetit.com/photos/577e904a753d41914efc235e/16:9/w_2560%2Cc_limit/bar-goto-nyc-bar-interior-Alex-lau.JPG");
+    height:620px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    background-size: cover;
+    animation:change 22s linear infinite;
+}
+@keyframes change{
+    0%{
+        background-image:url("https://images8.alphacoders.com/689/thumb-1920-689100.jpg");
+        height:620px;
+        width:100%;    
+    }
+    25%{
+        background-image:url("https://rare-gallery.com/uploads/posts/1044002-drink-glass-alcohol-whisky-whiskey-lighting-darkness-cocktail-distilled-beverage-liqueur-alcoholic-beverage.jpg");
+        height:620px;
+        width:100%;
+       
+    }
+    50%{
+        background-image:url("https://wallpapercrafter.com/desktop2/719333-alcohol-party-whiskey-bar-beverage-cocktail-night.jpg");
+        height:620px;
+        width:100%;
+       
+    }
+    75%{
+        background-image:url(" https://wallpapercrafter.com/desktop/278484-shelves-full-of-alcohol-bottles-and-glasses-behind.jpg");
+        height:620px;
+        width:100%;
+       
+    }
+    100%{
+        background-image:url("https://wallpapers.com/images/hd/beer-bottle-with-fresh-ingredients-y72pq2rfgfa5m1qz.jpg");
+        height:620px;
+        width:100%;    
+    }
+}
+.l{
+    width:300px;
+    margin-top:-50px;
+    color:white;
+    text-shadow: 1px 1px 6px black, 0 0 1em orange, 0 0 0.2em orange;
+    animation:shadow 5s linear infinite;
+}
+@keyframes shadow{
+    0%{
+        text-shadow: 1px 1px 6px black, 0 0 1em blue, 0 0 0.2em blue;
+        
+     }
+    25%{
+        text-shadow: 1px 1px 6px black, 0 0 1em purple, 0 0 0.2em purple;
+   
+    }
+    50%{
+        text-shadow: 1px 1px 6px black, 0 0 1em yellow, 0 0 0.2em yellow;
+   
+    }
+    75%{
+        text-shadow: 1px 1px 6px black, 0 0 1em crimson, 0 0 0.2em crimson;
+   
+    }
+    100%{
+        text-shadow: 1px 1px 6px black, 0 0 1em green, 0 0 0.2em green;
+        }
+}
+.bar_card{
+    background-color:transparent;
+    display:flex;
+    background-image:url("https://w0.peakpx.com/wallpaper/388/507/HD-wallpaper-black-wood-graphics-texture-wood-thumbnail.jpg");
+    background-size:cover;
+    margin-top:10%;
+}
+.bar_card_head{
+    font-weight:530;
+    font-size:45px;
+     text-shadow: 1px 1px 2px black, 0 0 1em gold, 0 0 0.2em gold;
+  color: white;
+    font-style:italic;
+}
+.bar_card_para{
+    font-size:22px;
+    margin-bottom:10px;
+    color:#cec8c8;
+    font-family: 'Dancing Script', cursive;
+}
+.bar_img{
+    height:500px;
+    width:500px;
+    margin-right:auto;
+}
+.head_bar_card{
+    padding:20px;
+    margin-top:30px;
+}
+.bar_btn{
+    background-color:#afaaaa;
+    padding:12px;
+    padding-right:30px;
+    padding-left:30px;
+    color:black;
+    font-size:15px;
+    font-weight:600;
+    border-width:0px;
+    border-radius:10px;
+}
+.bar_btn:hover{
+    letter-spacing: 0.1em;
+    color:blue;
+}
+.hyper_card{
+    margin-top:30px;
+}
+.bar_card_cap{
+    font-weight:bold;
+    margin-bottom:10px;
+    color:rgb(223, 168, 31);
+    font-size:18px;
+}
+footer{
+    background-color:rgb(92, 89, 89);
+    margin-top:20%;
+}
+.foot_img{
+    height:150px;
+    width:270px;
+    padding:25px;
+    margin-left:40px;
+}
+.icn{
+    margin-left:20px;
+}
+.foot_flex{
+    display:flex;
+    justify-content: space-between;
+}
+.foot_head{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:32px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+.follow{
+    margin:10px;
+    margin-right:35px;
+    color:white;
+}
+.foot_copy{
+    text-align:center;
+    color:rgb(238, 231, 231);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.copy1{
+    margin-bottom:10px;
+    padding-bottom:20px;
+}
+.main_head_image{
+    letter-spacing: 0.5em;
+}

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Phudu&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Dancing+Script&family=Press+Start+2P&family=Rye&family=Smythe&family=Titillium+Web:wght@300&family=Trade+Winds&display=swap');
+body{
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+.brand1_img{
+  border:1px solid white;
+  filter: drop-shadow(0 0 10px white);
+    height:600px;
+    width:600px;
+    border-radius:50px;
+    animation:image 1s linear forwards;
+}
+@keyframes image{
+    from{
+        transform:translateX(-150px);
+    }
+    to{
+        transform:translateX(10px);
+    }
+}
+.price_head{
+    background-color:orange;
+    padding:10px;
+}
+.price{
+    border:1px solid #aaa3a3;
+    width:250px;
+    margin:auto;
+}
+span{
+    font-size:16px;
+}
+.amt{
+    font-size:24px;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-weight:bold; 
+    font-family: 'Rajdhani', sans-serif;
+}
+.main_head{
+    font-size:40px;
+    font-family: 'Philosopher', sans-serif;
+}
+.size{
+    width:50px;
+    padding:5px;
+    font-weight:bold;
+    font-size:18px;
+    color:purple;
+    border:1px solid purple;
+}
+h2{
+    margin-right:20px;
+}
+.div_size{
+    display:flex;
+    justify-content: center;  
+    margin-top:20px;
+
+}
+.logo{
+    display:flex;
+    justify-content: center;
+}
+.logo1{
+    margin:10px;
+    font-size:18px;
+}
+.space{
+    margin:10px;
+    margin-left:30px;
+}
+
+.checked {
+    color: orange;
+}
+.rating{
+    display:flex;  
+}
+#size{
+    font-family:'Times New Roman';
+    font-weight:200;
+}
+.btn1{
+    background-color:brown;
+    color:white;
+    padding:15px;
+    margin-right:50px;
+    border-radius:10px;
+    text-decoration:none;
+}
+.btn2{
+    background-color:brown;
+    color:white;
+    padding:15px;
+    margin-left:50px;
+    border-radius:10px;
+    text-decoration:none;
+
+}
+.btn{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.rate{
+    font-size:30px;
+    font-family: 'Almarai', sans-serif;
+}

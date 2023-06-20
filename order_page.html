@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order_page.css">
+</head>
+<body>
+    <div class="bg_color">
+        <h1 class="order_head">Home Address.!</h1>
+        <p class="order_para">Your details are verified Successfully thank you....<span>&#128512;</span></p>
+        <div class="back_div">
+            <a class="back" href="#" onclick="open_pop_up()">Confirm</a>
+       </div>
+    </div>
+        <div class="pop_up" id="popup">
+            <img src="https://media.istockphoto.com/id/691856234/vector/flat-round-check-mark-green-icon-button-tick-symbol-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=hXL5nXQ2UJlh4yzs2LyZC4GtctQG0fs-mk30GPPbhbQ=" class="tick_img"/>
+            <h2>Thank you for ordering..!</h2>
+            <p>Order will be delivered soon...</p>
+            <a class="ok_btn" onclick="close_pop_up()" href="iron.html">OK</a>
+        </div>
+  <script>
+    let popup=document.getElementById("popup");
+    function open_pop_up()
+    {
+        popup.classList.add("open_popup");
+    }
+    function close_pop_up()
+    {
+        popup.classList.remove("open_popup");
+    }
+    
+  </script>
+
+</body>
+</html>

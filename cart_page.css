@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Dancing+Script&family=Press+Start+2P&family=Righteous&family=Rye&family=Smythe&family=Titillium+Web:wght@300&family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+body{
+  margin:0;
+  padding:0;
+  background-color: rgb(230, 147, 230);
+}
+.bg_color{
+  background-color:teal;
+  margin:auto;
+  margin-top:13%;
+  color:white;
+  height:200px;
+  border:2px solid black;
+  border-radius:20px;
+  text-align:center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+  padding:25px;
+  width:600px;
+}
+.back{
+  color:white;
+  background-color:brown;
+  border-radius:10px;
+  padding:10px;
+}
+.back_div{
+  text-align:center;
+  margin-top:50px;
+}
+a{
+  text-decoration: none;
+}
+span{
+  margin:10px;
+}
+.order_head{
+  font-size:50px;
+  font-family: 'Smythe', cursive;
+  margin-top:0;
+}
+.order_para{
+  font-size:23px;
+  font-family: 'Bruno Ace SC', cursive;
+  margin-top:40px;
+}
